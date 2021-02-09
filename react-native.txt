@@ -1,0 +1,30 @@
+install Mac
+
+install window
+
+npm install
+npm install expo-cli --global
+
+PATH = %USERPROFILE%\AppData\Roaming\npm
+
+npm install -g npx
+
+Food App
+npx expo-cli init food --npm
+
+npx expo-cli init blog --npm
+npm install react-navigation
+
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm install react-navigation-stack @react-native-community/masked-view
+
+expo r -c
+Clear cash
+
+
+
+npm install react-native-web react-dom expo
+npm install axios --save
+
+npm install react-native-render-html@next
