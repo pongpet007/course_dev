@@ -1,0 +1,33 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
+import React,{Component} from 'react';
+import { Button, View, StyleSheet, Text } from 'react-native';
+
+export default class App extends Component{
+
+  state = {
+    year:2016,
+    name :'Patcharapa',
+    color:['blue']   
+  };
+
+  render() {
+    return(
+      <View>
+        <Text>My name is : {this.state.name}</Text>
+        <Text>year is : {this.state.year}</Text>
+        <Text>color are {this.state.color[0]}</Text>
+      </View>
+    )
+
+    
+  }
+}
+
+

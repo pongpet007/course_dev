@@ -1,0 +1,69 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
+import React, { Component } from 'react';
+import { Button, View, StyleSheet, Text } from 'react-native';
+
+export default class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      leapYear: true,
+      info: {
+        type: 'programming'
+      }
+    }
+  }
+
+  render() {
+    return (
+      <View style={styles.container}>
+        <BookDisplay
+          leapYear={this.state.leapYear}
+          info={this.state.info}
+          topics={['React', 'React Native', 'JavaScript']} //Object
+        />
+      </View>
+    )
+
+  }
+}
+
+const BookDisplay = (props) => {
+  let leapyear
+  let { topics } = props
+  let { info } = props
+  topics = topics.map((topics, i) => {
+    return <Text>{topics}</Text>
+  })
+  if (props.leapYear) {
+    leapyear = <Text>This is a leapyear!</Text>
+  }
+  return (
+    <View>
+      {leapyear}
+      <Text>Book type: {info.type}</Text>
+      {topics}
+    </View>
+  )
+}
+
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  text: {
+    fontSize: 20,
+    color: "red"
+  }
+});
+
+

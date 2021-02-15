@@ -1,0 +1,38 @@
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ *
+ * @format
+ * @flow strict-local
+ */
+
+import React,{Component} from 'react';
+import { Button, View, StyleSheet, Text } from 'react-native';
+
+export default class App extends Component{
+
+  constructor(){
+    super()
+    this.state={
+      year:2016,
+    }
+  }
+  updateYear(){
+    this.setState({
+      year:2017
+    })
+  }
+  
+  render() {
+    return(
+      <View>
+        <Text onPress={()=>this.updateYear()}>
+          The year is:{this.state.year}          
+        </Text>        
+      </View>
+    )
+    
+  }
+}
+
+

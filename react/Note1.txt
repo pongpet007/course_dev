@@ -1,0 +1,19 @@
+
+C:\Users\labb404\AppData\Local\Android\Sdk
+
+-react-native init myrnproject
+-react-native run-android
+
+review
+-close nodecli
+-uninstall nodejs
+-install node again
+  - https://nodejs.org/en/download/ --> node setup
+-npm install -g expo-cli
+-npm install -g react-native-cli
+-create project react
+ -react-native init myrnproject
+-Open android studio -> open project --> build
+ -Open AVD Manager
+-cd myrnproject
+ -run ---> react-native run-android

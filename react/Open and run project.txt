@@ -1,0 +1,13 @@
+Step
+1.Open Android Studio
+ -build project
+2.Open Node.js command prompt
+ -run as administrator
+3.Change directory to project
+ -cd\
+ -cd myrnproject
+4.At Android Studio 
+ -Open AVD and run
+5.At node command prompt
+ -run project --> react-native run-android
+

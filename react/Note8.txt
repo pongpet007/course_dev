@@ -1,0 +1,11 @@
+Code after Disabling Yellow Warning
+ -console.disableYellowBox = true; 
+***************************************************
+This command will force clean the entire NPM cache:
+- npm cache clean -f
+- npm i
+***************************************************
+Navigation Between Page
+1.create folder ==> pages
+2.create file ==> 
+  FirstPage.js,SecondPage.js,and ThirdPage.js

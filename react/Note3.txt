@@ -1,0 +1,41 @@
+Code after Disabling Yellow Warning
+ -console.disableYellowBox = true;
+ -export default class App extends Component {}
+***************************************************
+PPT
+-Review Component, State, and props
+-JavaScript Arrow Functions
+-Slide 2_React_and_React_native(pdf file)
+***************************************************
+Code
+- 1,2,3,4,5,6 (Example State and props)
+- Component(From Day2)
+***************************************************
+
+
+- How to set onPress on a View in React Native
+- Load Different Style Sheet Dynamically on the Component in React Native
+-Text Props
+ - React Native Strikethrough and Underline Text
+ - React Native SuperScript and SubScript Text
+- MultiLine Text / Break Text in React Native
+
+***********************
+function() { .... }
+()=>{}
+*******************
+function(int param1,int param2){
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
