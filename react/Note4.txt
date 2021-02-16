@@ -1,0 +1,57 @@
+July,28,2020
+1.Components
+ -Text Input
+  1.TextInput
+  2.Image Icon in TextInput
+  3.TextInput is Empty or Not
+  4.Convert Text to Upper or Lower Case
+ -StyleSheet
+  5.Load Different Style Sheet Dynamically
+ -Touchable
+  6.Touchable
+ -Button
+  7.Button
+  8.Button with Image Icon
+ -Image
+  9.Image Opacity-Transparency
+  10.Set Border Radius of an Image
+  11.Circular Image using Border Radius
+ -ScrollView
+  12.ScrollView
+ -FlatList
+  13.FlatList
+  14.Message for Empty FlatList
+  15.Swipe Down to Refresh List View Using Refresh Control
+  16.React Native Add Header Footer in ListView / FlatList
+
+**********************************************************
+web React Native: reactnative.dev
+format React Native:rncs
+code format :alt+shift+f (Left)
+************************************
+conditional operator //if..else
+style={this.state.isOldStyle === true ? styles.styleOld : styles.styleNew}
+
+if(this.state.isOldStyle==true)
+  styles.stylOld
+else
+  styles.styleNew
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+ตรวจสอบตารางสอบปลายภาคที่ ClassRoom
+*****************************
+1.เรียกใช้ API จาก BackEnd
+2.Bottom Navigation
+3.Combine Navigation -->Stack,Drawer,Botom
+******************************************
+-create folder --> asset (VS Code)
+-download image logo1,logo2,logo4 from classroom
+-cut image(logo1,logo2,logo4) move to folder image
+in your project(myrnproject) 
+-recheck image in asset folder(VS Code)
+********************************************
+At VS Code
+-create File js in Folder pages
+  -HomeScreen.js
+  -NewsScreen.js
+  -SettingsScreen.js
+  -ProfileScreen.js
+***************************************
+แก้ปัญาหาลง Dependencies ไม่ได้
+-npm cache clean -f
+-npm i
+****************************************
+Application
+ -App.js -->วาง Navigation
+Page
+ -Home.js
+ -About.js
+ -Contact.js
+StackNavigation 
+ -create folder --> navigation
+  -StackNavigator.js
+  -TabNavigator.js
+  -DrawerNavigator.js

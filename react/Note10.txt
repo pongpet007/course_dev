@@ -1,0 +1,7 @@
+ให้นักศึกษาสร้าง folder ไว้บน DeskTop ของเครื่องตนเองดังนี้
+ - รหัส ชื่อ นามสกุล(ภาษาไทย)
+***************************
+Step[15-09-2020]-React Native Navigation Drawer
+ที่ Visual Studio Code
+1.สร้าง Folder ชื่อ Test
+2.สร้างไฟล์ชื่อ Screen1.js และ Screen2.js โดยสร้างไว้ใน Folder Test

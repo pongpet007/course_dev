@@ -1,0 +1,18 @@
+Time1(Review)
+-Text, Button,TextInput Component
+-StyleSheet
+*************************************
+1.Web reactnative.dev
+2.Extensions VS Code(Additional)
+3.Slide FlexBox
+4.FlexBox & Layouts(deep drive)(Example)
+  -Practice
+5.Review1 (Pratice)
+6.State (Example)
+7.Properties (Example)
+8.SafeArea
+9.TextInput
+10.ScrollView
+11.Touchable
+12.FlatList
+13.State&Prop (Work)
